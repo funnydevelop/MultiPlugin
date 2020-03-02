@@ -1,0 +1,10 @@
+server:
+        port: 8836
+spring:
+        jackson:
+                joda-date-time-format: yyyy-MM-dd HH:MM:ss
+        servlet:
+                multipart:
+                        enabled: true
+                        max-file-size: 2048MB
+                        max-request-size: 2048MB
